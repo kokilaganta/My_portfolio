@@ -1,0 +1,24 @@
+.navbar{
+    position: fixed;
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 100vw;
+    padding: 3vh;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+}
+.navlink{
+    font-size: 22px;
+    color: white;
+}
+@media only screen and (max-width: 700px)
+{
+    .navbar{
+        padding:3vh 0%;
+        justify-content: center;
+    }
+    .navlink{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,5 @@
+.App{
+  background-color: white;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

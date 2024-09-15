@@ -1,0 +1,70 @@
+.main-intro{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    margin-top: 9vh;
+}
+.intro-text{
+    width: 70vw;
+    background-color: black;
+    color: white;
+    padding: 30vh 5vw 3vh;
+}
+.intro-img {
+    width: 70%; /* Adjust the width as needed */
+    padding-right: 7vw;
+    padding-bottom: 3vh;
+    border-radius: 15px; /* Adjust the curve of the image */
+    box-shadow: 0 4px 8px rgba(14, 186, 181, 0.3); /* Adds a shadow to the image */
+ }
+ 
+ #intro-image {
+    height: 85vh;
+    width: 35vw;
+    border: none;
+    border-radius: 15px; /* Adjust the curve of the image */
+    box-shadow: 0 4px 8px rgba(158, 202, 200, 0.9); /* Shadow color adjusted */
+    object-fit: cover; /* Ensures the image covers the entire area while maintaining aspect ratio */
+}
+
+.intro-text-1
+{
+    font-size: 50px;
+}
+.intro-text-2
+{
+    font-size: 25px;
+}
+@media only screen and (max-width: 700px){
+    .main-intro{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-top: 8vh;
+    }
+    .intro-text{
+        width: 100vw;
+        text-align: center;
+        height: auto;
+        padding: 10vh;
+        padding-top: 6vh;
+    }
+    .intro-text-1{
+        font-size: 30px;
+    }
+    .intro-text-2{
+        font-size: 20px;
+    }
+    .intro-img{
+        /* position: static;
+        right:0%;
+        top: 0%; */
+        padding-right: 0%;
+        
+    }
+    #intro-image{
+        width:75vw; 
+    }
+}
