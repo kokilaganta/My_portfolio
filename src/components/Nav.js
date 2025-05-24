@@ -10,7 +10,7 @@ class Nav extends React.Component {
                 <Link smooth to="/#About" className="navlink">About</Link>
                 <Link smooth to="/#Projects" className="navlink">Projects</Link>
                 <Link smooth to="/#Skills" className="navlink">Skills</Link>
-                <Link smooth to="/#Experience" className="navlink">Experience</Link>
+                <Link smooth to="/#Experience" className="navlink">Extracurricular Activities</Link>
                 <Link smooth to="/#Contact" className="navlink">Contact</Link>
             </div>
         );

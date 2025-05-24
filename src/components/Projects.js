@@ -10,6 +10,15 @@ class Projects extends React.Component {
                     Projects
                 </div>
                 <Projectcomponent
+                    name="AttriSense"
+                    code="https://predictemployeeattrition.onrender.com"
+                    desc="AttriSense is a Flask-based web app that predicts employee attrition using machine learning.
+Upload employee data and get instant insights into who might leave and why.
+Visualize key factors affecting attrition through clean, interactive charts.
+Empower HR decisions with smart, data-driven predictions for better retention."
+                    imag="https://i.pinimg.com/736x/78/bf/85/78bf8595a192b256854073f2ec9d279a.jpg"
+                />
+                <Projectcomponent
                     name="WhrilMail"
                     code="https://github.com/kokilaganta/whrilmail"
                     desc="WhirlMail is a simple yet powerful Flask-based web app for sending mass emails 
@@ -28,15 +37,7 @@ Validates emails and shows which addresses are invalid"
                     it provides quick and accurate predictions to support early detection and proactive health management"
                     imag="https://i.pinimg.com/736x/73/f3/af/73f3af5244cc0e0d29b8ad528a62c70a.jpg"
                 />
-                <Projectcomponent
-                    name="AttriSense"
-                    code="https://predictemployeeattrition.onrender.com"
-                    desc="AttriSense is a Flask-based web app that predicts employee attrition using machine learning.
-Upload employee data and get instant insights into who might leave and why.
-Visualize key factors affecting attrition through clean, interactive charts.
-Empower HR decisions with smart, data-driven predictions for better retention."
-                    imag="https://i.pinimg.com/736x/78/bf/85/78bf8595a192b256854073f2ec9d279a.jpg"
-                />
+                
                
                
 
