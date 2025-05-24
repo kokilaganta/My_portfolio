@@ -8,7 +8,15 @@ import Skills from './Skills';
 import Experience from './Experience';
 import Contact from './Contact';
 
-import { BrowserRouter} from 'react-router-dom'
+
+import { BrowserRouter } from 'react-router-dom';
+
+ReactDOM.render(
+  <BrowserRouter basename="/my-new-portfolio">
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root')
+);
 
 export class App extends React.Component {
   constructor() {
