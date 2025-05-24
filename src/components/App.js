@@ -8,23 +8,20 @@ import Skills from './Skills';
 import Experience from './Experience';
 import Contact from './Contact';
 import { HashRouter } from 'react-router-dom';
-
-ReactDOM.render(
-  <HashRouter>
-    <App />
-  </HashRouter>,
-  document.getElementById('root')
-);
-
-
+// All imports moved to the top
+import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+// (other imports you already have)
 
-ReactDOM.render(
-  <BrowserRouter basename="/my-new-portfolio">
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <BrowserRouter basename="/My_portfolio">
     <App />
-  </BrowserRouter>,
-  document.getElementById('root')
+  </BrowserRouter>
 );
+
+// (rest of your code below, no imports here)
+
 
 export class App extends React.Component {
   constructor() {
