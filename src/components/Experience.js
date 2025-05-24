@@ -19,7 +19,7 @@ class Experience extends React.Component {
                         name="Main Coordinator of Student Cultural Organization"
                         description="Leading and managing a student cultural organization, organizing events, enhancing teamwork, and nurturing individual talents to foster a vibrant cultural community."
                         timestart="May, 2024"
-                        timeend="Ongoing"
+                        timeend="April 2025"
                     />
                 </div>
                 <div className="exp-box">
