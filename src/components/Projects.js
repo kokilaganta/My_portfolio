@@ -10,21 +10,22 @@ class Projects extends React.Component {
                     Projects
                 </div>
                 <Projectcomponent
-                    name="PropPredictor AI"
+                    name="WhrilMail"
                     code=""
-                    desc="The project successfully developed a robust 
-                    predictive model that estimates house prices with high accuracy. 
-                    The insights gained from the model can be used to assist real estate 
-                    professionals, potential buyers, and investors in making informed decisions."
-                    imag="https://media.licdn.com/dms/image/D5612AQHuM6PfDFMH3w/article-cover_image-shrink_720_1280/0/1709662087918?e=2147483647&v=beta&t=eNrN7LG4l7tpDpg6Ovf3rWPK2vo2qZMaDPwnzZdKcQE"
+                    desc="WhirlMail is a simple yet powerful Flask-based web app for sending mass emails 
+                    with ease. Upload a CSV of recipients, compose your subject and message, and let WhirlMail handle the rest.
+Simple Flask app to send mass emails from a CSV list
+Upload file, customize subject and message, and send instantly
+Validates emails and shows which addresses are invalid"
+                    imag="https://i.pinimg.com/736x/60/b5/b7/60b5b7635eec5c7c8e353eb09b23b9d0.jpg"
                 />
                 <Projectcomponent
-                    name="ReactFetch Fun"
+                    name="DiaScan"
                     code=""
-                    desc="The project provides a foundational example of integrating 
-                    an API with React, making it an excellent starting point for learning
-                     about data fetching and state management in React applications."
-                    imag="https://i.pinimg.com/564x/08/33/8d/08338d01bfffd01cb686e350c03ed187.jpg"
+                    desc="DiaScan is a web app developed using Python and machine learning algorithms to help 
+                    users assess their risk of diabetes. By analyzing user inputs, 
+                    it provides quick and accurate predictions to support early detection and proactive health management"
+                    imag="https://i.pinimg.com/736x/73/f3/af/73f3af5244cc0e0d29b8ad528a62c70a.jpg"
                 />
                
 
