@@ -7,6 +7,14 @@ import Projects from './Projects';
 import Skills from './Skills';
 import Experience from './Experience';
 import Contact from './Contact';
+import { HashRouter } from 'react-router-dom';
+
+ReactDOM.render(
+  <HashRouter>
+    <App />
+  </HashRouter>,
+  document.getElementById('root')
+);
 
 
 import { BrowserRouter } from 'react-router-dom';
