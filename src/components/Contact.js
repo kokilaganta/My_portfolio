@@ -17,7 +17,7 @@ class Contact extends React.Component {
             </a>
           </div>
           <div className="icons">
-            <a href="www.linkedin.com/in/kokila-ganta" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/kokila-ganta/" target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin />
             </a>
           </div>
