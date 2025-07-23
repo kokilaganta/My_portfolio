@@ -6,33 +6,38 @@ import Projects from './Projects';
 import Skills from './Skills';
 import Experience from './Experience';
 import Contact from './Contact';
-import '../css/App.css'; // Make sure this includes general layout styling
+import '../css/App.css';
+
+import { HashRouter as Router } from 'react-router-dom'; // ✅ Use HashRouter for GitHub Pages
+// import { BrowserRouter as Router } from 'react-router-dom';
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <Nav />
-        <section id="Intro">
-          <Intro />
-        </section>
-        <section id="About">
-          <About />
-        </section>
-        <hr />
-        <section id="Projects">
-          <Projects />
-        </section>
-        <section id="Skills">
-          <Skills />
-        </section>
-        <section id="Experience">
-          <Experience />
-        </section>
-        <section id="Contact">
-          <Contact />
-        </section>
-      </div>
+      <Router>
+        <div className="App">
+          <Nav />
+          <section id="Intro">
+            <Intro />
+          </section>
+          <section id="About">
+            <About />
+          </section>
+          <hr />
+          <section id="Projects">
+            <Projects />
+          </section>
+          <section id="Skills">
+            <Skills />
+          </section>
+          <section id="Experience">
+            <Experience />
+          </section>
+          <section id="Contact">
+            <Contact />
+          </section>
+        </div>
+      </Router>
     );
   }
 }
